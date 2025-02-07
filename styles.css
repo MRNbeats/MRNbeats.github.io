@@ -485,7 +485,7 @@ audio {
 .escuchar-yt {
     background-color: #1a1a1a; /* Rojo YouTube */
     padding: 10px; /* Más pequeño que el botón principal */
-    width: 50%; /* Reduce el ancho al 50% del contenedor */
+    width: 100%; /* Reduce el ancho al 50% del contenedor */
     margin: 10px auto; /* Centra el botón horizontalmente */
     font-size: 0.9rem; /* Fuente ligeramente más pequeña */
     border: 1px solid #aaa;
