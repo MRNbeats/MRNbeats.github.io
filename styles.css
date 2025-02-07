@@ -423,7 +423,6 @@ footer .footer-text {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 audio {
@@ -464,11 +463,36 @@ audio {
     font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+}
+
+.purchase-button a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .purchase-button:hover {
     background-color: #d62828;
+    transform: scale(1.05);
+}
+
+/* Estilo especial para el botón de YouTube (más pequeño) */
+.escuchar-yt {
+    background-color: #1a1a1a; /* Rojo YouTube */
+    padding: 10px; /* Más pequeño que el botón principal */
+    width: 50%; /* Reduce el ancho al 50% del contenedor */
+    margin: 10px auto; /* Centra el botón horizontalmente */
+    font-size: 0.9rem; /* Fuente ligeramente más pequeña */
+    border: 1px solid #aaa;
+}
+
+.escuchar-yt:hover {
+    transform: scale(1.05);
 }
 
 /* --------------------------*/
